@@ -1,0 +1,52 @@
+    
+  
+    .border {
+      border:solid 0.5px;
+    }
+  
+    /* .leftmargin{
+      margin-left: 10px;
+    } */
+  
+    
+  
+    .grey
+    {
+      background-color: darkgray;
+    }
+  
+    .collapse {
+      display: none;
+      position: relative;
+    }
+  
+    .collapse.in {
+      display: block;
+      
+    }
+
+    .app-chatbot-button {
+        width: 65px;
+        height: 62px;
+        border-radius: 50px;
+        background-color: #007bff !important;
+        border: none;
+        position: fixed;
+        float: right;
+        bottom: 15px;
+        z-index: 9999;
+        right: 40px;
+        color: white;
+    }
+    
+    .app-chatbot-container {
+        margin: 40px 0;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        right: 40px;
+        bottom: 40px;
+        z-index: 9999;
+        box-shadow: 5px 5px 13px rgb(91 81 81 / 40%);
+        border-radius: 5px;
+      }

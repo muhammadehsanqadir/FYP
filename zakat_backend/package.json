@@ -1,0 +1,39 @@
+{
+  "name": "fleetech",
+  "version": "1.0.0",
+  "description": "Zakat - Online Zakat System",
+  "main": "app.js",
+  "scripts": {
+    "serve": "nodemon server.js",
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "npm run install-client",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "concurrently": "^6.0.0",
+    "cors": "^2.8.5",
+    "distance-matrix-api": "^1.0.0",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
+    "form-data": "^3.0.0",
+    "google-distance-matrix": "^1.1.1",
+    "http": "0.0.1-security",
+    "http-server": "^0.12.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.14",
+    "multer": "^1.4.2",
+    "node-distance-matrix": "^1.2.0",
+    "socket.io": "^2.3.0",
+    "stripe": "^8.89.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.7"
+  }
+}

@@ -1,0 +1,30 @@
+
+  #au_h1{
+    color: #2c50ee;
+    font-size: 50px;
+    margin-top: 3%
+  }
+  #au_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0a4850;
+  }
+  
+  #au_li {
+    float: left;
+  }
+  
+  #au_li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #au_li a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
